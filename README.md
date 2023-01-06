@@ -2,7 +2,7 @@
 ## preview<br>
 ## Links &#127882;<br>
 <ul>
-<li>Live Site URL : <a href="">Click Here</a></li>
+<li>Live Site URL : <a href="https://0xabdul.github.io/Team-Profile-Card/">Click Here</a></li>
 </ul><br>
 
 
@@ -20,9 +20,9 @@
 
 ## What I learned &#128373;
 <ul>
-  <li>praticed more about responsive</li>
+  <li>praticed more about Media Queries</li>
   <li>more about page transistion</li>
-  <li>paraticed links</li>
+  <li>paratice about Transistion</li>
   </ul><br>
   
   
