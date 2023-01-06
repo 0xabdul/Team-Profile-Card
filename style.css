@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Archivo:wght@600&family=Big+Shoulders+Display:wght@700&family=Dancing+Script&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Josefin+Sans&family=Josefin+Slab&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Lobster&family=Michroma&family=Montserrat+Alternates&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300&family=Nanum+Gothic&family=Outfit:wght@400;600;700&family=Satisfy&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Archivo:wght@600&family=Big+Shoulders+Display:wght@700&family=Dancing+Script&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Josefin+Sans:ital,wght@0,400;1,300&family=Josefin+Slab&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Lobster&family=Michroma&family=Montserrat+Alternates&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300&family=Nanum+Gothic&family=Outfit:wght@400;600;700&family=Satisfy&family=Space+Grotesk:wght@300&display=swap');
+
+
+
+.logo{
+    font-family:  'Archivo', sans-serif;
+    font-size:70px;
+    margin-left:200px;
+}
+.logo-content{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:25px;
+    margin-left:200px;
+    margin-top:-40px;
+}
+.work1,.work2,.work3,.work4,.work5,.work6{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:20px;
+     margin-left:300px;
+     flex-grow:100;
+}
+.img1 img{
+    height:150px;
+    border-radius:50%;
+    width:150px;
+    border-style:solid;
+    padding:7px;
+    border-color: wheat;
+}
+.img1{
+    text-align: center;
+    margin-right:50px;
+}
+.img4 img{
+    height:150px;
+    border-radius:50%;
+    width:150px;
+    border-style:solid;
+    padding:7px;
+    border-color: wheat;
+}
+.img4{
+    text-align: center;
+    margin-right:50px;
+}
+.img5 img{
+    height:150px;
+    border-radius:50%;
+    width:150px;
+    border-style:solid;
+    padding:7px;
+    border-color: wheat;
+}
+.img5{
+    text-align: center;
+    margin-right:50px;
+}
+.img6 img{
+    height:150px;
+    border-radius:50%;
+    width:150px;
+    border-style:solid;
+    padding:7px;
+    border-color: wheat;
+}
+.img6{
+    text-align: center;
+    margin-right:50px;
+}
+.img3 img{
+    height:150px;
+    border-radius:50%;
+    width:150px;
+    border-style:solid;
+    padding:7px;
+    border-color: wheat;
+}
+.img3{
+    text-align: center;
+    margin-right:50px;
+}
+.name1,.name2,.name3,.name4,.name5,.name6{
+    font-family:  'Archivo', sans-serif;
+    font-size:25px;
+    margin-left:20px;
+}
+body{
+    background-color:#FFFFE0;
+}
+.roll1{
+    background-color: #FFFFE0;
+    width:500px;
+    box-shadow:1px 2px 100px 10px lightgrey;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:20px;
+    margin-left:150px;
+    margin-top:100px;
+    
+}
+.roll2{
+    background-color: #FFFFE0;
+    width:500px;
+    box-shadow:1px 2px 100px 10px lightgrey;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:20px;
+    margin-top:100px;
+    margin-left:50px;
+}
+.roll3{
+    background-color: #FFFFE0;
+    width:500px;
+    box-shadow:1px 2px 100px 10px lightgrey;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:20px;
+    margin-top:100px;
+    margin-left:50px;
+}
+.roll4{
+    background-color: #FFFFE0;
+    width:500px;
+    box-shadow:1px 2px 100px 10px lightgrey;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:20px;
+    margin-top:100px;
+    margin-left:150px;
+}
+.roll5{
+    background-color: #FFFFE0;
+    width:550px;
+    box-shadow:1px 2px 100px 10px lightgrey;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:20px;
+    margin-top:100px;
+    margin-left:50px;
+}
+.roll6{
+    background-color: #FFFFE0;
+    width:500px;
+    box-shadow:1px 2px 100px 10px lightgrey;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:20px;
+    margin-top:100px;
+    margin-left:50px;
+}
+  
+
+.roll1{
+    transition: 1s ease;
+    }
+    .roll6{
+        transition: 1s ease;
+        }
+    .roll5{
+        transition: 1s ease;
+        }
+    .roll4{
+        transition: 1s ease;
+        }
+    .roll3{
+        transition: 1s ease;
+        }
+    
+    .roll1:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+    .roll6:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+        }
+    .roll5:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+        }
+    .roll4:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+        }
+    .roll3:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+        }
+    .roll1:hover{
+        background-color: rgb(0, 0, 0);
+        color:wheat;
+        box-shadow:1px 2px 100px 80px lightgrey;
+    }
+    .roll6:hover{
+        background-color: rgb(0, 0, 0);
+        color:wheat;
+        box-shadow:1px 2px 100px 80px lightgrey;
+    }
+    .roll5:hover{
+        background-color: rgb(0, 0, 0);
+        color:wheat;
+        box-shadow:1px 2px 100px 80px lightgrey;
+    }
+    .roll4:hover{
+        background-color: rgb(0, 0, 0);
+        color:wheat;
+        box-shadow:1px 2px 100px 80px lightgrey;
+    }
+    .roll3:hover{
+        background-color: rgb(0, 0, 0);
+        color:wheat;
+        box-shadow:1px 2px 100px 80px lightgrey;
+    }
+    .roll2:hover{
+        background-color: rgb(0, 0, 0);
+        color:wheat;
+        box-shadow:1px 2px 100px 80px lightgrey;
+    }
+    .img2 img{
+        height:150px;
+        border-radius:50%;
+        width:150px;
+        border-style:solid;
+        padding:7px;
+        border-color: wheat;
+    }
+    .img2{
+        text-align: center;
+        margin-right:50px;
+    }
+    .roll2{
+        transition: 1s ease;
+        }
+        
+        .roll2:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+        }
+        .wrap{
+            display:flex;
+            flex-grow:100;
+        }
+        .wraps{
+            display:flex;
+            flex-grow:100;
+        }
+  @media (max-width:1721px) {
+    .work1,.work2,.work3,.work4,.work5,.work6{
+        margin-left:200px;
+  }
+  .roll1{
+    margin-left:50px;
+  }
+  .roll4{
+    margin-left:50px;
+  }
+  }
+@media (max-width:1390px) {
+    .work1,.work2,.work3,.work4,.work5,.work6{
+        margin-left:100px;
+    }
+    
+}
+@media (max-width:1110px) {
+    .work1,.work2,.work3,.work4,.work5,.work6{
+        margin-left:30px;
+    }
+
+}
+@media(max-width:900px) {
+    .img1 img{
+        height:100px;
+        width:100px;
+    }
+    .img2 img{
+        height:100px;
+        width:100px;
+    }
+    .img3 img{
+        height:100px;
+        width:100px;
+    }
+    .img4 img{
+        height:100px;
+        width:100px;
+    }
+    .img5 img{
+        height:100px;
+        width:100px;
+    }
+    .img6 img{
+        height:100px;
+        width:100px;
+    }
+    .name1,.name2,.name3,.name4,.name5,.name6{
+     font-size:20px;
+     margin-left:30px ;
+}
+.roll1{
+    margin-left:30px;
+  }
+  .roll4{
+    margin-left:20px;
+  }
+  .name1,.name3,.name5,.name6{
+    margin-left:50px;
+  }
+  .name4{
+    margin-left:40px;
+  }
+
+}
+@media(max-width:782px) {
+    .work1,.work2,.work3,.work4,.work5,.work6{
+     font-size:17px;
+}
+.logo{
+    margin-left: 100px;
+}
+.logo-content{
+    margin-left:100px;
+}
+}
+@media (max-width:700px) {
+    .wrap{
+        flex-direction: column;
+    }
+    .wraps{
+        flex-direction: column;
+    }
+    .roll1{
+        margin-left:80px;
+    }
+    .roll2{
+        margin-left:80px;
+    }
+    .roll3{
+        margin-left:80px;
+    }
+    .roll4{
+        margin-left:80px;
+    }
+    .roll5{
+        margin-left:80px;
+        width:500px;
+    }
+    .roll6{
+        margin-left:80px;
+    }
+    .name1,.name2,.name3,.name4,.name5,.name6{
+        text-align: center;
+        margin-right:70px;
+    }
+    .name1,.name3,.name4,.name5,.name6{
+        margin-right:90px;
+    }
+    .work1,.work2,.work3,.work4,.work5,.work6{
+        text-align: center;
+        margin-right:70px;
+    }
+}
+@media (max-width:584px) {
+    .roll1{
+        margin-left:20px;
+    }
+    .roll2{
+        margin-left:20px;
+    }
+    .roll3{
+        margin-left:20px;
+    }
+    .roll4{
+        margin-left:20px;
+    }
+    .roll5{
+        margin-left:20px;
+    }
+    .roll6{
+        margin-left:20px;
+    }
+    
+
+}
+@media (max-width:550px) {
+    .logo{
+        margin-left: 50px;
+        font-size:50px;
+    }
+    .logo-content{
+        margin-left:50px;
+        font-size:20px;
+    }
+    .roll1{
+        margin-left:80px;
+        width:350px;
+    }
+    .roll2{
+        margin-left:80px;
+        width:350px;
+    }
+    .roll3{
+        margin-left:80px;
+        width:350px;
+    }
+    .roll4{
+        margin-left:80px;
+        width:350px;
+    }
+    .roll5{
+        margin-left:80px;
+        width:350px;
+    }
+    .roll6{
+        margin-left:80px;
+        width:350px;
+    }
+    .name1,.name2,.name3,.name4,.name5,.name6{
+        text-align: center;
+    }
+    .img1{
+        text-align: center;
+    }
+}
+@media (max-width:436px) {
+    .roll1{
+        margin-left:35px;
+    }
+    .roll2{
+        margin-left:35px;
+    }
+    .roll3{
+        margin-left:35px;
+    }
+    .roll4{
+        margin-left:35px;
+    }
+    .roll5{
+        margin-left:35px;
+    }
+    .roll6{
+        margin-left:35px;
+    }
+    body{
+        padding-bottom:20px;
+    }
+}
+@media (max-width:400px) {
+    .roll1{
+        margin-left:10px;
+    }
+    .roll2{
+        margin-left:10px;
+    }
+    .roll3{
+        margin-left:10px;
+    }
+    .roll4{
+        margin-left:10px;
+    }
+    .roll5{
+        margin-left:10px;
+    }
+    .roll6{
+        margin-left:10px;
+    }
+}
+@media (max-width:370px) {
+    .roll1{
+        margin-left:15px;
+        width:320px;
+    }
+    .roll2{
+        margin-left:15px;
+        width:320px;
+    }
+    .roll3{
+        margin-left:15px;
+        width:320px;
+    }
+    .roll4{
+        margin-left:15px;
+        width:320px;
+    }
+    .roll5{
+        margin-left:15px;
+        width:320px;
+    }
+    .roll6{
+        margin-left:15px;
+        width:320px;
+    }
+}
+@media (max-width:348px) {
+    .roll1{
+        margin-left:15px;
+        width:300px;
+    }
+    .roll2{
+        margin-left:15px;
+        width:300px;
+    }
+    .roll3{
+        margin-left:15px;
+        width:300px;
+    }
+    .roll4{
+        margin-left:15px;
+        width:300px;
+    }
+    .roll5{
+        margin-left:15px;
+        width:300px;
+    }
+    .roll6{
+        margin-left:15px;
+        width:300px;
+    }
+}
+@media (max-width:326px) {
+    .roll1{
+        margin-left:15px;
+        width:270px;
+    }
+    .roll2{
+        margin-left:15px;
+        width:270px;
+    }
+    .roll3{
+        margin-left:15px;
+        width:270px;
+    }
+    .roll4{
+        margin-left:15px;
+        width:270px;
+    }
+    .roll5{
+        margin-left:15px;
+        width:270px;
+    }
+    .roll6{
+        margin-left:15px;
+        width:270px;
+    }
+}
+@media (max-width:296px) {
+    .roll1{
+        margin-left:15px;
+        width:250px;
+    }
+    .roll2{
+        margin-left:15px;
+        width:250px;
+    }
+    .roll3{
+        margin-left:15px;
+        width:250px;
+    }
+    .roll4{
+        margin-left:15px;
+        width:250px;
+    }
+    .roll5{
+        margin-left:15px;
+        width:250px;
+    }
+    .roll6{
+        margin-left:15px;
+        width:250px;
+    }
+    .logo{
+        margin-left: 20px;
+        font-size:50px;
+    }
+    .logo-content{
+        margin-left:20px;
+        font-size:20px;
+    }
+    .work1,.work2,.work3,.work4,.work5,.work6{
+        margin-left:30px;
+    }
+}
+@media (max-width:276px) {
+    .roll1{
+        margin-left:15px;
+        width:230px;
+    }
+    .roll2{
+        margin-left:15px;
+        width:230px;
+    }
+    .roll3{
+        margin-left:15px;
+        width:230px;
+    }
+    .roll4{
+        margin-left:15px;
+        width:230px;
+    }
+    .roll5{
+        margin-left:15px;
+        width:230px;
+    }
+    .roll6{
+        margin-left:15px;
+        width:230px;
+    }
+    .work1,.work2,.work3,.work4,.work5,.work6{
+        font-size:13px;
+        margin-left:50px;
+    }
+    .name1,.name2,.name3,.name4,.name5,.name6{
+        font-size:13px;
+        margin-left:50px;
+    }
+    .img1{
+        margin-left:20px;
+    }
+    .img2{
+        margin-left:20px;
+    }
+    .img3{
+        margin-left:20px;
+    }
+    .img4{
+        margin-left:20px;
+    }
+    .img5{
+        margin-left:20px;
+    }
+    .img6{
+        margin-left:20px;
+    }
+}
