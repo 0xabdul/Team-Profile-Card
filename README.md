@@ -2,7 +2,7 @@
 ## preview<br>
 ## Links &#127882;<br>
 <ul>
-<li>Live Site URL : <a href="https://0xabdul.github.io/Team-Profile-Card/">Click Here</a></li>
+<li>Live Site URL : <a href="">Click Here</a></li>
 </ul><br>
 
 
